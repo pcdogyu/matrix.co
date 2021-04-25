@@ -1,7 +1,3 @@
- Tab Rotate Options
-Config Source:
- Local Storage
- Remote Url
 {
   "settingsReloadIntervalMinutes": 1,
   "fullscreen": false,
@@ -33,13 +29,45 @@ Config Source:
       "duration": 10,
       "tabReloadIntervalSeconds": 15
     },
-
     {
       "url": "https://grafana.matrix.co/d/matrix-prod-me/matrix-prod-me?orgId=1&from=now-6h&to=now",
       "duration": 10,
       "tabReloadIntervalSeconds": 15
+    }，
+    {
+      "url": "https://grafana.matrix.co/d/matrix-prod-ap/matrix-prod-ap?orgId=1&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
+    }，
+    {
+      "url": "https://grafana.matrix.co/d/matrix-prod-me/matrix-prod-me?orgId=1&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
+    }，
+    {
+      "url": "https://grafana.matrix.co/d/matrix-prod-me-dr/matrix-prod-me-dr?orgId=1&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
+    }，
+    {
+      "url": "https://grafana.matrix.co/d/n_nxrE_mk/elasticsearch-monitor?orgId=1&refresh=1m&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
+    }，
+      {
+      "url": "https://grafana.matrix.co/d/FxSnuq4Gk/elasticsearch?orgId=1&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
+    }，
+    {
+      "url": "https://grafana.matrix.co/d/YgX3yRJGk/nms-monitor?orgId=1&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
+    },
+    {
+      "url": "https://grafana.matrix.co/d/Alxt_FEik/alibaba-cloud-ecs-instance-dashboard?orgId=1&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
     }
-
-
   ]
 }
