@@ -1,4 +1,6 @@
 {
+  "Lastupdate": "2021.4.25 13:46",
+  "Author": "yuhao@dfgroup.pro",
   "settingsReloadIntervalMinutes": 1,
   "fullscreen": false,
   "autoStart": false,
