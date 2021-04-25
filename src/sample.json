@@ -1,5 +1,5 @@
 {
-  "Lastupdate": "2021.4.25 14:30",
+  "Lastupdate": "2021.4.25 17:30",
   "Author": "yuhao@dfgroup.pro",
   "settingsReloadIntervalMinutes": 15,
   "fullscreen": false,
@@ -7,70 +7,94 @@
   "lazyLoadTabs": false,
   "websites": [
     {
-      "url": "https://grafana.matrix.co/d/7NEmel8mk/skywalking-telemetry?orgId=1&refresh=30s&from=now-6h&to=now",
+      "url": "https://grafana.matrix.co/d/AUWOLV9Mz/prod-skywalking-telemetry?orgId=1&from=now-6h&to=now",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
+    },
+
+    {
+      "url": "https://grafana.matrix.co/d/dvHFPV9Gk/prod-nginx-ingress-controller?orgId=1&refresh=5s",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
+    },
+
+    {
+      "url": "https://grafana.matrix.co/d/5Gfa849Gz/prod-kubernetes-networking-pod?orgId=1&refresh=10s&var-datasource=matrix-prod-prometheus&var-namespace=matrix-prod&var-pod=All&var-resolution=5m&var-interval=4h&from=now-6h&to=now",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
+    },
+
+    {
+      "url": "https://grafana.matrix.co/d/0UB5w49Mk/prod-kubernetes-compute-resources-namespace-pods?orgId=1&refresh=10s&var-datasource=matrix-prod-prometheus&var-cluster=&var-namespace=matrix-prod",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
+    },
+
+    {
+      "url": "https://grafana.matrix.co/d/FDyx8V9Gz/prod-kubernetes-networking-workload?orgId=1&refresh=10s&var-datasource=default&var-namespace=kube-system&var-workload=All&var-type=daemonset&var-resolution=30s&var-interval=4h",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
+    },
+
+    {
+      "url": "https://grafana.matrix.co/d/IdyqUV9Gz/prod-kubernetes-networking-namespace-workload?orgId=1&refresh=10s&var-datasource=default&var-namespace=kube-system&var-type=deployment&var-resolution=30s&var-interval=4h&from=now-6h&to=now",
       "duration": 15,
       "tabReloadIntervalSeconds": 20
     },
     {
-      "url": "https://grafana.matrix.co/d/nginx/nginx-ingress-controller?orgId=1&refresh=30s&from=now-6h&to=now",
+      "url": "https://grafana.matrix.co/d/cTbJ8V9Gz/prod-kubernetes-cluster?orgId=1&refresh=10s&var-datasource=matrix-prod-prometheus&var-cluster=&from=now-6h&to=now",
       "duration": 15,
       "tabReloadIntervalSeconds": 20
     },
-    {
-      "url": "https://grafana.matrix.co/d/vkQ0UHxik/coredns?orgId=1&from=now-6h&to=now",
-      "duration": 15,
-      "tabReloadIntervalSeconds": 20
-    },
-    {
-      "url": "https://grafana.matrix.co/d/4GFbkOsZk/request-handling-performance?orgId=1&refresh=30s&from=now-6h&to=now",
-      "duration": 15,
-      "tabReloadIntervalSeconds": 20
-    },
-    {
-      "url": "https://grafana.matrix.co/d/CHCYgQwMz/etcd?orgId=1&refresh=10s&from=now-6h&to=now",
-      "duration": 15,
-      "tabReloadIntervalSeconds": 20
-    },
-    {
-      "url": "https://grafana.matrix.co/d/matrix-prod-me/matrix-prod-me?orgId=1&from=now-6h&to=now",
-      "duration": 15,
-      "tabReloadIntervalSeconds": 20
-    },
-    {
-      "url": "https://grafana.matrix.co/d/matrix-prod-ap/matrix-prod-ap?orgId=1&from=now-6h&to=now",
-      "duration": 15,
-      "tabReloadIntervalSeconds": 20
-    },
-    {
-      "url": "https://grafana.matrix.co/d/matrix-prod-me/matrix-prod-me?orgId=1&from=now-6h&to=now",
-      "duration": 15,
-      "tabReloadIntervalSeconds": 20
-    },
-    {
-      "url": "https://grafana.matrix.co/d/matrix-prod-me-dr/matrix-prod-me-dr?orgId=1&from=now-6h&to=now",
-      "duration": 15,
-      "tabReloadIntervalSeconds": 20
-    },
-    {
-      "url": "https://grafana.matrix.co/d/n_nxrE_mk/elasticsearch-monitor?orgId=1&refresh=1m&from=now-6h&to=now",
-      "duration": 15,
-      "tabReloadIntervalSeconds": 20
-    },
-      {
-      "url": "https://grafana.matrix.co/d/FxSnuq4Gk/elasticsearch?orgId=1&from=now-6h&to=now",
-      "duration": 15,
-      "tabReloadIntervalSeconds": 20
-    },
-    {
-      "url": "https://grafana.matrix.co/d/YgX3yRJGk/nms-monitor?orgId=1&from=now-6h&to=now",
-      "duration": 15,
-      "tabReloadIntervalSeconds": 20
-    },
+
     {
       "url": "https://grafana.matrix.co/d/Alxt_FEik/alibaba-cloud-ecs-instance-dashboard?orgId=1&from=now-6h&to=now",
       "duration": 15,
       "tabReloadIntervalSeconds": 20
+    },
+    {
+      "url": "https://grafana.matrix.co/d/ohbGC49Gz/matrix-prod-ap?orgId=1",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
+    },
+    {
+      "url": "https://grafana.matrix.co/d/oADnC49Gk/matrix-prod-me?orgId=1",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
+    },
+      {
+      "url": "https://grafana.matrix.co/d/DHynj49Gk/matrix-prod-me-dr?orgId=1",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
+    },
+    {
+      "url": "https://grafana.matrix.co/d/a37NCVrGk/elasticsearch?orgId=1&from=now-6h&to=now",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
+    },
+    {
+      "url": "https://grafana.matrix.co/d/mv-Nj4rMk/elasticsearch-monitor?orgId=1&refresh=1m&from=now-6h&to=now",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
+    },
+    {
+      "url": "https://grafana.matrix.co/d/2bCvjV9Gk/mysql-overview?orgId=1&refresh=1m",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
+    },
+    {
+      "url": "https://grafana.matrix.co/d/I9Eoq4rMz/rocketmq-minotor?orgId=1&from=now-6h&to=now&var-datasource=matrix-prod-prometheus&var-cluster=matrix-rocketmq-cluster&var-broker=broker-a",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
+    },
+    {
+      "url": "https://grafana.matrix.co/d/H3Va34rMz/nms-monitor?orgId=1&from=now-6h&to=now",
+      "duration": 15,
+      "tabReloadIntervalSeconds": 20
     }
+
+
+
   ]
 }
 
