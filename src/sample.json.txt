@@ -1,0 +1,45 @@
+ Tab Rotate Options
+Config Source:
+ Local Storage
+ Remote Url
+{
+  "settingsReloadIntervalMinutes": 1,
+  "fullscreen": false,
+  "autoStart": false,
+  "lazyLoadTabs": false,
+  "websites": [
+    {
+      "url": "https://grafana.matrix.co/d/7NEmel8mk/skywalking-telemetry?orgId=1&refresh=30s&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
+    },
+    {
+      "url": "https://grafana.matrix.co/d/nginx/nginx-ingress-controller?orgId=1&refresh=30s&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
+    },
+    {
+      "url": "https://grafana.matrix.co/d/vkQ0UHxik/coredns?orgId=1&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
+    },
+    {
+      "url": "https://grafana.matrix.co/d/4GFbkOsZk/request-handling-performance?orgId=1&refresh=30s&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
+    },
+    {
+      "url": "https://grafana.matrix.co/d/CHCYgQwMz/etcd?orgId=1&refresh=10s&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
+    },
+
+    {
+      "url": "https://grafana.matrix.co/d/matrix-prod-me/matrix-prod-me?orgId=1&from=now-6h&to=now",
+      "duration": 10,
+      "tabReloadIntervalSeconds": 15
+    }
+
+
+  ]
+}
