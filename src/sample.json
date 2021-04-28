@@ -80,7 +80,10 @@
     {
       "url": "https://grafana.matrix.co/d/tbn84IAGz/prod-rds-dashboard?orgId=1&from=now-6h&to=now",
       "duration": 25
-
+    },
+    {
+      "url": "https://grafana.matrix.co/d/2bCvjV9Gk/mysql-overview?orgId=1&refresh=1m&from=now-6h&to=now",
+      "duration": 25
     },
     {
       "url": "https://grafana.matrix.co/d/I9Eoq4rMz/rocketmq-minotor?orgId=1&from=now-6h&to=now&var-datasource=matrix-prod-prometheus&var-cluster=matrix-rocketmq-cluster&var-broker=broker-a",
