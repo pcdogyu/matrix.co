@@ -78,7 +78,7 @@
 
     },
     {
-      "url": "https://grafana.matrix.co/d/2bCvjV9Gk/mysql-overview?orgId=1&refresh=1m",
+      "url": "https://grafana.matrix.co/d/tbn84IAGz/prod-rds-dashboard?orgId=1&from=now-6h&to=now",
       "duration": 25
 
     },
