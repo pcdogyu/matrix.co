@@ -7,7 +7,7 @@
   "lazyLoadTabs": false,
   "websites": [
     {
-      "url": "https://grafana.matrix.co/d/AUWOLV9Mz/prod-skywalking-telemetry?orgId=1&from=now-6h&to=now",
+      "url": "https://grafana.matrix.co/d/at-cost-analysis-pod/prod-skywalking?orgId=1&refresh=10s&from=now-6h&to=now",
       "duration": 17
     },
     {
