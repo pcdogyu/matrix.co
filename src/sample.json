@@ -2,7 +2,7 @@
   "Lastupdate": "2021.4.28 10:30",
   "Author": "yuhao@dfgroup.pro",
   "settingsReloadIntervalMinutes": 15,
-  "fullscreen": false,
+  "fullscreen": true,
   "autoStart": false,
   "lazyLoadTabs": false,
   "websites": [
