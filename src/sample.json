@@ -8,92 +8,63 @@
   "websites": [
     {
       "url": "https://grafana.matrix.co/d/AUWOLV9Mz/prod-skywalking-telemetry?orgId=1&from=now-6h&to=now",
-      "duration": 20
-
+      "duration": 17
     },
-
     {
       "url": "https://grafana.matrix.co/d/dvHFPV9Gk/prod-nginx-ingress-controller?orgId=1&refresh=5s",
-      "duration": 20
-
+      "duration": 17
     },
-
     {
       "url": "https://grafana.matrix.co/d/5Gfa849Gz/prod-kubernetes-networking-pod?orgId=1&refresh=10s&var-datasource=matrix-prod-prometheus&var-namespace=matrix-prod&var-pod=All&var-resolution=5m&var-interval=4h&from=now-6h&to=now",
-      "duration": 20
-
+      "duration": 17
     },
-
     {
       "url": "https://grafana.matrix.co/d/0UB5w49Mk/prod-kubernetes-compute-resources-namespace-pods?orgId=1&refresh=10s&var-datasource=matrix-prod-prometheus&var-cluster=&var-namespace=matrix-prod",
-      "duration": 20
-
+      "duration": 17
     },
 
     {
       "url": "https://grafana.matrix.co/d/FDyx8V9Gz/prod-kubernetes-networking-workload?orgId=1&refresh=10s&var-datasource=default&var-namespace=kube-system&var-workload=All&var-type=daemonset&var-resolution=30s&var-interval=4h",
-      "duration": 20
-
+      "duration": 17
     },
 
     {
       "url": "https://grafana.matrix.co/d/IdyqUV9Gz/prod-kubernetes-networking-namespace-workload?orgId=1&refresh=10s&var-datasource=default&var-namespace=kube-system&var-type=deployment&var-resolution=30s&var-interval=4h&from=now-6h&to=now",
-      "duration": 20
-
+      "duration": 17
     },
     {
       "url": "https://grafana.matrix.co/d/cTbJ8V9Gz/prod-kubernetes-cluster?orgId=1&refresh=10s&var-datasource=matrix-prod-prometheus&var-cluster=&from=now-6h&to=now",
-      "duration": 20
-
+      "duration": 17
     },
 
     {
       "url": "https://grafana.matrix.co/d/uR6E0A9Mz/prod-ecs-monitor-copy?orgId=1&from=now-6h&to=now&var-datasource=matrix-prod-prometheus&var-job=node-exporter&var-hostname=All&var-node=10.0.31.174:9100&var-node=10.0.31.175:9100&var-node=10.0.31.176:9100&var-node=10.0.31.177:9100&var-node=10.0.31.178:9100&var-node=10.0.31.179:9100&var-node=10.0.31.180:9100&var-node=10.0.31.181:9100&var-node=10.0.31.207:9100&var-node=10.0.31.208:9100&var-node=10.0.31.209:9100&var-device=All&var-maxmount=%2F&var-show_hostname=me-east-1.10.0.31.174",
-      "duration": 20
-
-    },
-    {
-      "url": "https://grafana.matrix.co/d/ohbGC49Gz/matrix-prod-ap?orgId=1",
-      "duration": 20
-
+      "duration": 17
     },
     {
       "url": "https://grafana.matrix.co/d/oADnC49Gk/matrix-prod-me?orgId=1",
-      "duration": 20
-
-    },
-      {
-      "url": "https://grafana.matrix.co/d/DHynj49Gk/matrix-prod-me-dr?orgId=1",
-      "duration": 20
-
+      "duration": 17
     },
     {
       "url": "https://grafana.matrix.co/d/a37NCVrGk/elasticsearch?orgId=1&from=now-6h&to=now",
-      "duration": 20
-
+      "duration": 17
     },
     {
       "url": "https://grafana.matrix.co/d/mv-Nj4rMk/elasticsearch-monitor?orgId=1&refresh=1m&from=now-6h&to=now",
-      "duration": 20
-
+      "duration": 17
     },
     {
       "url": "https://grafana.matrix.co/d/tbn84IAGz/prod-rds-dashboard?orgId=1&from=now-6h&to=now",
-      "duration": 20
+      "duration": 17
     },
     {
       "url": "https://grafana.matrix.co/d/I9Eoq4rMz/rocketmq-minotor?orgId=1&from=now-6h&to=now&var-datasource=matrix-prod-prometheus&var-cluster=matrix-rocketmq-cluster&var-broker=broker-a",
-      "duration": 20
-
+      "duration": 17
     },
     {
       "url": "https://grafana.matrix.co/d/H3Va34rMz/nms-monitor?orgId=1&from=now-6h&to=now",
-      "duration": 20
-
+      "duration": 17
     }
-
-
-
   ]
 }
 
