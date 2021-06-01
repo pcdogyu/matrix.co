@@ -8,7 +8,7 @@
   "websites": [
  
     {
-      "url": "https://grafana.matrix.co/d/dvHFPV9Gk/prod-nginx-ingress-controller?orgId=1&refresh=5s",
+      "url": "https://grafana.matrix.co/d/dvHFPV9Gk/prod-nginx-ingress-controller?orgId=1&refresh=5m&from=now-6h&to=now",
       "duration": 17
     },
     {
@@ -43,23 +43,19 @@
       "duration": 17
     },
     {
-      "url": "https://grafana.matrix.co/d/a37NCVrGk/elasticsearch?orgId=1&from=now-6h&to=now",
-      "duration": 17
-    },
-    {
       "url": "https://grafana.matrix.co/d/mv-Nj4rMk/elasticsearch-monitor?orgId=1&refresh=5m&from=now-6h&to=now",
       "duration": 17
     },
     {
-      "url": "https://grafana.matrix.co/d/tbn84IAGz/prod-rds-dashboard?orgId=1&from=now-6h&to=now",
+      "url": "https://grafana.matrix.co/d/tbn84IAGz/prod-rds-dashboard?orgId=1&from=now-3h&to=now&refresh=5m",
       "duration": 17
     },
     {
-      "url": "https://grafana.matrix.co/d/I9Eoq4rMz/rocketmq-minotor?orgId=1&from=now-6h&to=now&var-datasource=matrix-prod-prometheus&var-cluster=matrix-rocketmq-cluster&var-broker=broker-a",
+      "url": "https://grafana.matrix.co/d/I9Eoq4rMz/rocketmq-minotor?orgId=1&from=now-6h&to=now&var-datasource=matrix-prod-prometheus&var-cluster=matrix-rocketmq-cluster&var-broker=broker-a&refresh=5m",
       "duration": 17
     },
     {
-      "url": "https://grafana.matrix.co/d/H3Va34rMz/nms-monitor?orgId=1&from=now-6h&to=now",
+      "url": "https://grafana.matrix.co/d/H3Va34rMz/nms-monitor?orgId=1&from=now-6h&to=now&refresh=5m",
       "duration": 17
     },
     {
