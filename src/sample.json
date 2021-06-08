@@ -58,7 +58,13 @@
     {
       "url": "https://grafana.matrix.co/d/FwJkkF6Mz/fix-monitor?orgId=1&refresh=1m&from=now-6h&to=now",
       "duration": 15
+    },
+    {
+      "url": "https://grafana.matrix.co/d/7lJkJs6Mz/fsra-vbr-monitor?orgId=1&refresh=30s&var-Datasource=matrix-prod-prometheus&var-interval=30s&var-target=All",
+      "duration": 15
     }
+
+
 
   ]
 }
