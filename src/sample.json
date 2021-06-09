@@ -40,6 +40,10 @@
       "duration": 15
     },
     {
+      "url": "https://grafana.matrix.co/d/H7R47pUMk/dts-monitor?orgId=1&refresh=5s&from=now-3h&to=now",
+      "duration": 15
+    },
+    {
       "url": "https://grafana.matrix.co/d/I9Eoq4rMz/rocketmq-minotor?orgId=1&from=now-6h&to=now&var-datasource=matrix-prod-prometheus&var-cluster=matrix-rocketmq-cluster&var-broker=broker-a&refresh=5m",
       "duration": 15
     },
