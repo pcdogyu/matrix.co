@@ -70,8 +70,11 @@
     {
       "url": "https://grafana.matrix.co/d/7lJkJs6Mz/fsra-vbr-monitor?orgId=1&refresh=30s&var-Datasource=matrix-prod-prometheus&var-interval=30s&var-target=All&from=now-12h",
       "duration": 15
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pcdogyu/matrix.co/main/%E5%85%AC%E5%91%8A/readme.md",
+      "duration": 15
     }
-
 
 
 
