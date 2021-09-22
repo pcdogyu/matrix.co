@@ -44,6 +44,10 @@
       "duration": 15
     },
     {
+      "url": "https://grafana.matrix.co/d/TySatHN7z/cen-across-dubai-singapore?orgId=1&from=now-24h&to=now&kiosk",
+      "duration": 15
+    },
+    {
       "url": "https://grafana.matrix.co/d/I9Eoq4rMz/rocketmq-minotor?orgId=1&from=now-12h&to=now&var-datasource=matrix-prod-prometheus&var-cluster=matrix-rocketmq-cluster&var-broker=broker-a&refresh=5m&kiosk",
       "duration": 15
     },
