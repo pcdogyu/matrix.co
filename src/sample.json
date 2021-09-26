@@ -40,7 +40,7 @@
       "duration": 15
     },
     {
-      "url": "https://grafana.matrix.co/d/H7R47pUMk/dts-monitor?orgId=1&refresh=5m&from=now-24h&to=now&kiosk",
+      "url": "https://grafana.matrix.co/d/e8UwPxH7z/dts-aliyun?orgId=1&refresh=5m&from=now-24h&to=now&kiosk",
       "duration": 15
     },
     {
