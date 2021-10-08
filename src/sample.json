@@ -84,7 +84,7 @@
       "duration": 15
     },
     {
-      "url": "https://grafana.matrix.co/d/WojOgXTmk/prometheus-alertmanager?orgId=1",
+      "url": "https://grafana.matrix.co/d/pYJuhJ9Mz/prod-alertmanager-dashboard?orgId=1&refresh=5s",
       "duration": 15
     }
     
