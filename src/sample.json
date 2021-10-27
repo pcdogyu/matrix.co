@@ -52,7 +52,7 @@
       "duration": 15
     },
     {
-      "url": "https://grafana.matrix.co/d/H3Va34rMz/nms-monitor?orgId=1&from=now-24h&to=now&refresh=5m&kiosk",
+      "url": "https://grafana.matrix.co/d/H3Va34rMz/nms-monitor?orgId=1&from=now-24h&to=now&refresh=1m&var-datasource=matrix-prod-prometheus&var-hostname=All",
       "duration": 15
     },
     {
