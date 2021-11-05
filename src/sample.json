@@ -44,7 +44,7 @@
       "duration": 15
     },
     {
-      "url": "https://grafana.matrix.co/d/TySatHN7z/cen-across-dubai-singapore?orgId=1&from=now-24h&to=now&refresh=5m&kiosk",
+      "url": "https://grafana.matrix.co/d/TySatHN7z/cen-across-dubai-singapore?orgId=1&from=now-24h&to=now&var-instanceid=All&var-vbr=%7B%22instanceId%22:%22vbr-eb3y298c87klwld4kmn18%22%7D&refresh=5m",
       "duration": 15
     },
     {
