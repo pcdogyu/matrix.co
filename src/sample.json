@@ -1,7 +1,7 @@
 { 
-  "Lastupdate": "2021.4.28 10:30",
-  "Author": "yuhao@dfgroup.pro",
-  "settingsReloadIntervalMinutes": 15,
+  "Lastupdate": "2023.5.11 11:30",
+  "Author": "yuhao@matrix.co",
+  "settingsReloadIntervalMinutes": 300,
   "fullscreen": true,
   "autoStart": false,
   "lazyLoadTabs": false,
@@ -37,6 +37,10 @@
     },
     {
       "url": "https://grafana.matrix.co/d/tbn84IAGz/prod-rds-dashboard?orgId=1&from=now-24h&to=now&refresh=5m&kiosk",
+      "duration": 15
+    },
+    {
+      "url": "https://grafana.matrix.co/d/dOcO2ey4k/redis-aliyun?orgId=1&from=now-24h&to=now&kiosk=tv&refresh=5m",
       "duration": 15
     },
     {
