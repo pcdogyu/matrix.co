@@ -1,5 +1,5 @@
 { 
-  "Lastupdate": "2023.5.11 11:30",
+  "Lastupdate": "2023.10.08 17:30",
   "Author": "yuhao@matrix.co",
   "settingsReloadIntervalMinutes": 300,
   "fullscreen": true,
@@ -76,7 +76,7 @@
       "duration": 15
     },
     {
-      "url": "https://grafana.matrix.co/d/FwJkkF6Mz/fix-monitor?orgId=1&refresh=5m&from=now-24h&to=now&kiosk",
+      "url": "https://grafana.matrix.co/d/FwJkkF6Mz/fix-monitor?orgId=1&from=now-12h&to=now&refresh=5m",
       "duration": 15
     },
     {
